@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:layout_marginTop="30dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Pitch"
+            android:textSize="20dp"
+            android:id="@+id/pitchTextView"
+
+            android:layout_alignParentTop="true"
+        />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:id="@+id/pitchEditText"
+            android:inputType="numberDecimal"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/pitchTextView"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@id/pitchTextView"
+            android:focusable="true"
+            android:text="abc"
+            android:textSize="20dp"
+            android:contentDescription="Enter desired talkback Pitch"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout2"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Rate"
+            android:id="@+id/rateTextView"
+            android:textSize="20dp"
+             />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:id="@+id/rateEditText"
+            android:layout_alignTop="@id/rateTextView"
+            android:inputType="numberDecimal"
+           android:layout_toRightOf="@id/rateTextView"
+            android:layout_marginLeft="20dp"
+            android:text="abc"
+            android:textSize="20dp"
+            android:contentDescription="Enter desired talkback rate "
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/submitButton"
+        android:background="@drawable/blue_button"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:clickable="true"
+
+       />
+
+</RelativeLayout>
+<!-- From: file:/J:/Personal/Android/Android%20workspace/EnableIndiaSpellingApp_v1.6/EnableIndiaSpellingApp/app/src/main/res/layout/modify_pitch_rate.xml -->

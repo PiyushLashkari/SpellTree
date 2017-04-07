@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/com.fasterxml.jackson.databind/com.fasterxml.jackson.databind.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="98364cd86063fe995199a1eb8268319d3e5db1f9">
+        <dex dex="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/app/build/intermediates/pre-dexed/debug/com.fasterxml.jackson.databind-c32bc099fe009c1832d7478aa71086ac5c6ee636.jar" />
+    </item>
+    <item
+        jar="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/com.fasterxml.jackson.annotations/com.fasterxml.jackson.annotations.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="adaa16df5f1ff56b40fb59362c83886f5413096c">
+        <dex dex="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/app/build/intermediates/pre-dexed/debug/com.fasterxml.jackson.annotations-c8f6d25f2b55873db03ebf816802de7db7581794.jar" />
+    </item>
+    <item
+        jar="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/com.fasterxml.jackson.core/com.fasterxml.jackson.core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6575afa4a9b3dc94dec2fa6082847e6987de651c">
+        <dex dex="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/app/build/intermediates/pre-dexed/debug/com.fasterxml.jackson.core-e6869457253699e0519a438eb0650e677416c4f5.jar" />
+    </item>
+    <item
+        jar="/Users/piyushlashkari/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-231744a9bcf540a9afe38245d56cebf40677ecd4.jar" />
+    </item>
+    <item
+        jar="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/piyushlashkari/Desktop/EnableIndiaSpellingApp/app/build/intermediates/pre-dexed/debug/classes-ecf79bd7659d941d99dcbf3506f649055de8e29d.jar" />
+    </item>
+
+</items>

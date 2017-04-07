@@ -1,0 +1,1 @@
+include ':app', ':com.fasterxml.jackson.databind', ':com.fasterxml.jackson.core', ':com.fasterxml.jackson.annotations'

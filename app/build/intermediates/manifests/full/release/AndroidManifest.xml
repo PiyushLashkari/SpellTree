@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.enableindia.texttospeechapp"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/spell_tree_logo"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="com.enableindia.texttospeechapp.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.enableindia.texttospeechapp.CategorySelection"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.enableindia.texttospeechapp.ModeSelection"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.enableindia.texttospeechapp.ExerciseSelection"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.enableindia.texttospeechapp.LearnMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.enableindia.texttospeechapp.TestMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.enableindia.texttospeechapp.GetMeaningOfWord"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.enableindia.texttospeechapp.SettingsActivity" />
+        <activity android:name="com.enableindia.texttospeechapp.ModifyPitchRate" >
+        </activity>
+        <activity android:name="com.enableindia.texttospeechapp.NetworkModeSelection" >
+        </activity>
+        <activity android:name="com.enableindia.texttospeechapp.TestModeOption" >
+        </activity>
+        <activity android:name="com.enableindia.texttospeechapp.TestReportSelection" >
+        </activity>
+        <activity android:name="com.enableindia.texttospeechapp.TestReport" >
+        </activity>
+    </application>
+
+</manifest>

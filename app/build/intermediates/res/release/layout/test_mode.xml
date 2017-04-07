@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Type Here"
+        android:inputType="textNoSuggestions"
+        android:minLines="2"
+        android:padding="10dp"
+        android:privateImeOptions="nm">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtContent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnReplay"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Replay" />
+
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/btnReplay"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:text="Check">
+
+        </Button>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/left_button_bright"
+        android:contentDescription="Previous"
+        android:visibility="invisible" />
+
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/right_button_bright"
+        android:contentDescription="Next"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_below="@+id/leftButton">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/leftButton"
+            android:layout_weight="4"
+            android:padding="15dp"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewTestResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:background="@drawable/gradient_box"
+                android:fadeScrollbars="false"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/J:/Personal/Android/Android%20workspace/EnableIndiaSpellingApp_v1.6/EnableIndiaSpellingApp/app/src/main/res/layout/test_mode.xml -->
